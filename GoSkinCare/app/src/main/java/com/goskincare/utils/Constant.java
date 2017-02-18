@@ -15,7 +15,7 @@ public class Constant {
     public static final String PAYPAL_MARCHANT_USER_AGREEMENT_URL = "https://www.paypal.com/webapps/mpp/ua/useragreement-full";
 
     public static final String ServerSandboxUrl = "http://staging.gotoskincare.com/apiv2";
-    public static final String ServerProductionUrl = "https://www.gotoskincare.com/apiv2";
+    public static final String ServerProductionUrl = "https://192.168.0.91/apiv2";
 
     public static final String ServerUrl = Common.getServerURL();
     public static final String LoginUrl = ServerUrl + "/user/login/";
@@ -31,9 +31,9 @@ public class Constant {
     public static final String PlaceIncompleteOrderUrl = ServerUrl + "/order/placeIncompleteOrder/";
     public static final String PlaceConfirmOrderUrl = ServerUrl + "/order/confirmOrder/";
     public static final String PayByTokenUrl = ServerUrl + "/order/payByToken/";
-    public static final String TermsPageUrl = "http://www.gotoskincare.com/apiv2/pages/terms/";
-    public static final String HelpPageUrl = "http://www.gotoskincare.com/apiv2/pages/help/";
-    public static final String MagicOrderHelpPageUrl = "http://www.gotoskincare.com/apiv2/pages/magicOrder/";
+    public static final String TermsPageUrl = "http://192.168.0.91/apiv2/pages/terms/";
+    public static final String HelpPageUrl = "http://192.168.0.91/apiv2/pages/help/";
+    public static final String MagicOrderHelpPageUrl = "http://192.168.0.91/apiv2/pages/magicOrder/";
     public static final String CreditCardListUrl = ServerUrl + "/user/creditCardList/";
     public static final String CreditCardAddUrl = ServerUrl + "/user/creditCardAdd/";
     public static final String CreditCardDeleteUrl = ServerUrl + "/user/creditCardDelete/";
